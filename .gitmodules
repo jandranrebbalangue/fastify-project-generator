@@ -1,0 +1,3 @@
+[submodule "lib/fastify-mongo"]
+	path = lib/fastify-mongo
+	url = https://github.com/jandranrebbalangue/fastify-project-generator/tree/main
