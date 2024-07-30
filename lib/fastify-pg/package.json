@@ -1,0 +1,42 @@
+{
+  "name": "practice-fastify-ts",
+  "packageManager": "yarn@4.0.1",
+  "scripts": {
+    "dev": "tsx watch ./server.ts",
+    "start:db": "docker-compose -p postgres up -d",
+    "test": "tap --reporter=list",
+    "db:generate": "kysely-codegen",
+    "start": "node dist/server.js",
+    "build": "tsc --build --clean && tsc"
+  },
+  "devDependencies": {
+    "@sinclair/typebox": "^0.32.3",
+    "@types/eslint": "^8",
+    "@types/node": "^20.10.5",
+    "@types/pg": "^8",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "kysely-codegen": "^0.11.0",
+    "pino-pretty": "^10.3.1",
+    "prettier": "^3.1.1",
+    "tap": "^18.6.1",
+    "tsx": "^4.7.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^7.2.4",
+    "@fastify/postgres": "^5.2.2",
+    "@fastify/type-provider-typebox": "^3.5.0",
+    "fastify": "^4.25.2",
+    "kysely": "^0.26.3",
+    "pg": "^8.11.3"
+  }
+}
