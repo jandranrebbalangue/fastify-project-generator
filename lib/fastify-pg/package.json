@@ -10,7 +10,7 @@
     "build": "tsc --build --clean && tsc"
   },
   "devDependencies": {
-    "@sinclair/typebox": "^0.32.3",
+    "@sinclair/typebox": "^0.34.0",
     "@types/eslint": "^8",
     "@types/node": "^20.10.5",
     "@types/pg": "^8",

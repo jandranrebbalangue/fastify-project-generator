@@ -594,10 +594,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sinclair/typebox@npm:^0.32.3":
-  version: 0.32.3
-  resolution: "@sinclair/typebox@npm:0.32.3"
-  checksum: f456d68221e2455064e0567dc20af4cb4884b98ecb439444924b9ad5e50dd60b0634704b2727ce5937be64d67797c9d0cbeaa3306b6798a8cb932ba24bd99102
+"@sinclair/typebox@npm:^0.34.0":
+  version: 0.34.11
+  resolution: "@sinclair/typebox@npm:0.34.11"
+  checksum: b4a0706d44e94eedfc1b048b47aa52f3cabed9eec57f294032ab0bcf8fc4c1d213f31c14a9b520236f7132175fe9b4719a741703b5d00a07773d7a88975670b6
   languageName: node
   linkType: hard
 
@@ -4726,7 +4726,7 @@ __metadata:
     "@fastify/jwt": "npm:^7.2.4"
     "@fastify/postgres": "npm:^5.2.2"
     "@fastify/type-provider-typebox": "npm:^3.5.0"
-    "@sinclair/typebox": "npm:^0.32.3"
+    "@sinclair/typebox": "npm:^0.34.0"
     "@types/eslint": "npm:^8"
     "@types/node": "npm:^20.10.5"
     "@types/pg": "npm:^8"
