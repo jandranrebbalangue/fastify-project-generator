@@ -307,11 +307,11 @@ __metadata:
   linkType: hard
 
 "@fastify/type-provider-typebox@npm:^3.5.0":
-  version: 3.5.0
-  resolution: "@fastify/type-provider-typebox@npm:3.5.0"
+  version: 3.6.0
+  resolution: "@fastify/type-provider-typebox@npm:3.6.0"
   peerDependencies:
-    "@sinclair/typebox": ">=0.26 <=0.31"
-  checksum: 10c0/db393858341fc527bafb962208f26709114527ae0fe80027a72a61d213daa0703381797301e8e1ab622794ccf2cfdc6002443735f2e072cdb56307740d98859f
+    "@sinclair/typebox": ">=0.26 <=0.32"
+  checksum: 10c0/4f329c6fb935d3aeef5333a9deb77de882ab1dbc8cc88753f640879cca14c74f503a3f20473134d96dbfc6e18550a076b4ab2f835711f22273d5147d7eb09d33
   languageName: node
   linkType: hard
 
