@@ -12,6 +12,7 @@
     "release": "release-it",
     "release:dryrun": "release-it --dry-run"
   },
+  "homepage": "https://github.com/jandranrebbalangue/fastify-project-generator/tree/main#fastify-project-generator",
   "author": {
     "name": "Jan Dranreb Balangue",
     "url": "https://github.com/jandranrebbalangue",
