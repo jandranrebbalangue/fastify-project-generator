@@ -52,3 +52,5 @@ csv/
 scripts/token.txt
 .yarnrc.yml
 .yarn
+pgdata
+schema

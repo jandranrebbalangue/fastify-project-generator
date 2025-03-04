@@ -1,6 +1,6 @@
 services:
   pgadmin:
-    image: dpage/pgadmin4:6.21
+    image: dpage/pgadmin4:9.1.0
     container_name: pgadmin4
     environment:
       - PGADMIN_DEFAULT_EMAIL=root@admin.com
@@ -9,7 +9,7 @@ services:
     ports:
       - "5050:5050"
   postgres:
-    image: postgres:15.5
+    image: postgres:17.4
     container_name: postgres
     restart: always
     environment:
